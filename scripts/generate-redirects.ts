@@ -11,7 +11,7 @@ async function main() {
     const name = file.replace('.sh', '')
     redirects[`/${name}`] = {
       redirect: {
-        to: `https://raw.githubusercontent.com/barbapapazes/setup/main/sh/${name}`,
+        to: `https://raw.githubusercontent.com/barbapapazes/setup/main/sh/${file}`,
         statusCode: 302, // Temporary redirect
       },
     }
