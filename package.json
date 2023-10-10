@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "prepare": "nitropack prepare",
+    "dev": "nitropack dev",
+    "build:redirects": "jiti scripts/generate-redirects.ts",
+    "build": "pnpm build:redirects && nitropack build",
+    "preview": "node .output/server/index.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "dependencies": {
+    "magicast": "^0.3.0",
+    "nitropack": "latest"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "1.0.0-beta.24",
+    "eslint": "^8.51.0",
+    "jiti": "^1.20.0"
+  }
+}
