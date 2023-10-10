@@ -31,5 +31,12 @@ sudo apt install -y docker-ce
 # Install Docker Compose
 sudo apt install -y docker-compose
 
+# Install httpie
+sudo apt install -y httpie
+
 # Auto remove unused packages
 sudo apt autoremove -y
+
+# Install NPM packages
+npm i -g npm
+npm i -g @antfu/ni jiti wrangler bun
