@@ -20,6 +20,9 @@ devDependencies:
   eslint:
     specifier: ^8.51.0
     version: 8.51.0
+  jiti:
+    specifier: ^1.20.0
+    version: 1.20.0
   magicast:
     specifier: ^0.3.0
     version: 0.3.0

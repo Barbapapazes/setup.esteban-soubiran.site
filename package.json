@@ -7,6 +7,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "redirects": "jiti scripts/generate-redirects.ts && pnpm run lint:fix",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -16,6 +17,7 @@
     "@nuxt/devtools": "latest",
     "@nuxthq/studio": "^1.0.0",
     "eslint": "^8.51.0",
+    "jiti": "^1.20.0",
     "magicast": "^0.3.0",
     "nuxt": "^3.7.4",
     "vue": "^3.3.4",

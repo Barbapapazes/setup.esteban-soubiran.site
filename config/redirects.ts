@@ -2,14 +2,14 @@
 export default {
   '/quick-setup-codespaces': {
     redirect: {
-      to: 'https://raw.githubusercontent.com/barbapapazes/setup/main/sh/quick-setup-codespaces',
+      to: 'https://raw.githubusercontent.com/barbapapazes/setup/main/sh/quick-setup-codespaces.sh',
       statusCode: 302,
     },
   },
 
-  '/setup_wsl': {
+  '/wsl': {
     redirect: {
-      to: 'https://raw.githubusercontent.com/barbapapazes/setup/main/sh/setup_wsl',
+      to: 'https://raw.githubusercontent.com/barbapapazes/setup/main/sh/wsl.sh',
       statusCode: 302,
     },
   },
