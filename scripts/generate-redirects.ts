@@ -6,7 +6,7 @@ async function main() {
   const files = readdirSync('./sh')
 
   // Generate redirects
-  const redirects: Record<string, { redirect: { to: string; statusCode: number } }> = {}
+  const redirects: Record<string, { redirect: { to: string, statusCode: number } }> = {}
   for (const file of files) {
     const name = file.replace('.sh', '')
     redirects[`/${name}`] = {
