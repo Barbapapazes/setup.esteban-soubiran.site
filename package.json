@@ -12,15 +12,15 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.26",
-    "@barbapapazes/solo-sphere": "^0.0.8",
+    "@antfu/eslint-config": "1.2.0",
+    "@barbapapazes/solo-sphere": "^0.1.4",
     "@nuxt/devtools": "latest",
-    "@nuxthq/studio": "^1.0.3",
-    "eslint": "^8.51.0",
-    "jiti": "^1.20.0",
-    "magicast": "^0.3.0",
+    "@nuxthq/studio": "^1.0.4",
+    "eslint": "^8.53.0",
+    "jiti": "^1.21.0",
+    "magicast": "^0.3.2",
     "nuxt": "^3.8.1",
-    "vue": "^3.3.4",
+    "vue": "^3.3.8",
     "vue-router": "^4.2.5"
   }
 }
