@@ -12,11 +12,11 @@
     "lint:fix": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.26",
+    "@antfu/eslint-config": "1.2.1",
     "@barbapapazes/solo-sphere": "^0.0.8",
     "@nuxt/devtools": "latest",
     "@nuxthq/studio": "^1.0.3",
-    "eslint": "^8.51.0",
+    "eslint": "^8.55.0",
     "jiti": "^1.20.0",
     "magicast": "^0.3.0",
     "nuxt": "^3.8.1",
